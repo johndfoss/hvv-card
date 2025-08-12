@@ -128,7 +128,7 @@ class HvvCard extends LitElement {
                                         <td class="expand">${direction}</td>
                                         <td class="narrow" style="text-align:right;">
                                             ${this._config.show_time ?
-                                                departure.toLocaleTimeString('en-GB') :
+                                                departure.toLocaleTimeString('de-DE') :
                                                 departureHours > 0 ?
                                                     departureHours + `:` + departureMins :
                                                     departureMins
